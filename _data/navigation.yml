@@ -1,11 +1,20 @@
-# main links links
+# # main links links
 main:
   - title: "General"
-    url: /about/
+    url: /#general
 
-  # - title: "News"
-  #   url: /news/
-    
+  - title: "Education"
+    url: /#education
+
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "News"
+    url: /#news
+
   - title: "CV"
     url: /files/Tianchang_CV.pdf
     

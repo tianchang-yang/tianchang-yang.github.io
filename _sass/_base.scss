@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
+  margin: 2em 0 0;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -155,7 +155,7 @@ td > code {
 
 hr {
   display: block;
-  margin: 1em 0;
+  margin: 0;
   border: 0;
   border-top: 1px solid $border-color;
 }
@@ -164,12 +164,12 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0;
 }
 
 /*
@@ -332,8 +332,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 .btn-copy {
   display: inline-block;
   padding: 5px 10px;
-  margin: 5px 5px 0 0; /* Add some margin to space it out */
-  font-size: 14px;
+  // margin: 5px 5px 0 0; /* Add some margin to space it out */
+  font-size: 12px;
   color: #fff;
   background-color: #007bff;
   border: none;
@@ -350,6 +350,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 /* Custom styles for the PDF and Reference links */
 .publication-links a {
+  font-size: 14px;
   margin-right: 10px; /* Add some spacing between the links */
   text-decoration: none;
   color: #007bff;
@@ -359,4 +360,17 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   text-decoration: underline;
 }
 
+/* Subtext styles for education, publications, and experience */
+.subtext {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.2;
+}
+
+/* Subtext styles for education, publications, and experience */
+.newscontent {
+  font-size: 14px;
+  color: #555;
+  line-height: 1;
+}
 
