@@ -313,3 +313,50 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* Custom styles for two columns layout with bullets */
+.two-columns ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding: 0;
+  list-style: disc outside none;
+}
+
+.two-columns ul li {
+  break-inside: avoid;
+  padding: 0 10px;
+  margin: 0;
+}
+/* Custom styles for the Copy BibTex button */
+.btn-copy {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0; /* Add some margin to space it out */
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-copy:hover {
+  background-color: #0056b3;
+}
+
+/* Custom styles for the PDF and Reference links */
+.publication-links a {
+  margin-right: 10px; /* Add some spacing between the links */
+  text-decoration: none;
+  color: #007bff;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+

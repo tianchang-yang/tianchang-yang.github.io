@@ -1,0 +1,29 @@
+/* Timeline styling */
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.timeline-item h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.timeline-item p {
+  margin: 0.5em 0;
+}
+
+.timeline-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.timeline-item a:hover {
+  text-decoration: underline;
+}

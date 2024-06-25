@@ -2,6 +2,9 @@
 main:
   - title: "General"
     url: /about/
+
+  # - title: "News"
+  #   url: /news/
     
   - title: "CV"
     url: /files/Tianchang_CV.pdf

@@ -7,43 +7,87 @@ redirect_from:
   - /about.html
 ---
 
-Tianchang Yang is a Ph.D. student in the <ins>Sy</ins>stems and <ins>N</ins>etwork <ins>Sec</ins>urity [(SyNSec)](https://synsec-den.github.io/){:target="_blank"} Research Group at Penn State University working with Dr. [Syed Rafiul Hussain](https://syed-rafiul-hussain.github.io/){:target="_blank"}.
+I am a third-year Ph.D. student in the <ins>Sy</ins>stems and <ins>N</ins>etwork <ins>Sec</ins>urity [(SyNSec)](https://synsec-den.github.io/){:target="_blank"} Research Group at Penn State University. I'm working as a graduate research assistant with Dr. [Syed Rafiul Hussain](https://syed-rafiul-hussain.github.io/){:target="_blank"}.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<h2>Research Interest</h2>
+<div class="two-columns">
+<ul>
+  <li>Systems & Network Security</li>
+  <li>5G and Next-Generation Networks</li>
+  <li>Open RAN (O-RAN) Systems</li>
+  <li>Porgram Analysis</li>
+  <li>Formal Methods for Security</li>
+  <li>ML-/LLM- Security & Privacy</li>
+</ul>
+</div>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<h2>Education</h2>
+<ul>
+  <li>
+    <h3>The Pennsylvania State University</h3>
+    Ph.D. Student, Computer Science <br>
+    Advisor: Dr. Syed Rafiul Hussain <br>
+    08/2022 - Present
+  </li>
+  <li>
+    <h3>Columbia University</h3>
+    M.S., Computer Science, Computer Security Track <br>
+    08/2019 - 12/2020
+  </li>
+  <li>
+    <h3>University of Richmond</h3>
+    B.S., Double Major in both Computer Science and Mathematics <br>
+    Minor in Business Administration <br>
+    08/2015 - 05/2019
+  </li>
+</ul>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<h2>Publications</h2>
+<ul>
+  <li>
+    <h3>ORANalyst: Systematic Testing Framework for Open RAN Implementations</h3> 
+    Tianchang Yang, Syed Md Mukit Rashid, Ali Ranjbar, Gang Tan, Syed Rafiul Hussain <br>
+    USENIX Security Symposium (USENIX Security), 2024 <br>
+    
+  </li>
+  <li>
+    <h3>Formal Analysis of Access Control Mechanism of 5G Core Network</h3> 
+    Mujtahid Akon, Tianchang Yang, Yilu Dong, Syed Rafiul Hussain <br>
+    The ACM Conference on Computer and Communications Security (CCS), 2023 <br>
+    <div class="publication-links">
+    <a href="files/paper/5GCVerif-ccs23.pdf" target="_blank">[PDF]</a>
+   <button class="btn-copy" onclick="copyBibTex()">Copy BibTex</button>
+   </div>
+    <pre id="bibtexCitation" style="display:none;">
+@inproceedings{10.1145/3576915.3623113,
+author = {Akon, Mujtahid and Yang, Tianchang and Dong, Yilu and Hussain, Syed Rafiul},
+title = {Formal Analysis of Access Control Mechanism of 5G Core Network},
+year = {2023},
+isbn = {9798400700507},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3576915.3623113},
+doi = {10.1145/3576915.3623113},
+abstract = {We present 5GCVerif, a model-based testing framework designed to formally analyze the access control framework of the 5G Core. With its modular design, 5GCVerif employs various abstraction techniques to craft an abstract model that captures the intricate details of the 5G Core's access control mechanism. This approach offers customizability and extensibility in constructing the abstract model and addresses the state explosion problem in model checking. 5GCVerif also sidesteps the challenge of exhaustively generating models for all possible core network configurations by restricting the model checker to explore policy violations only within the valid network configurations. Using 5GCVerif, we evaluated 55 security properties, leading to the discovery of five new vulnerabilities in 5G Core's access control mechanism. The uncovered vulnerabilities can result in multiple attacks including unauthorized entry to sensitive information, illegitimate access to services, and denial-of-services.},
+booktitle = {Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {666–680},
+numpages = {15},
+keywords = {5g core network, access control, formal analysis, vulnerabilities},
+location = {Copenhagen, Denmark},
+series = {CCS '23}
+    </pre>
+  </li>
+</ul>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<script>
+function copyBibTex() {
+  var bibtexCitation = document.getElementById("bibtexCitation");
+  var textArea = document.createElement("textarea");
+  textArea.value = bibtexCitation.textContent;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textArea);
+  alert("BibTex citation copied to clipboard");
+}
+</script>
