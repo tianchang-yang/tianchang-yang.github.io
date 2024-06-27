@@ -7,6 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL8JJS0WLQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CL8JJS0WLQ');
+</script>
+
 <div id="general">
 I am a third-year Ph.D. student in the <ins>Sy</ins>stems and <ins>N</ins>etwork <ins>Sec</ins>urity <a href="https://synsec-den.github.io/" target="_blank">(SyNSec)</a> Research Group at Penn State University. I'm working as a graduate research assistant with Dr. <a href="https://syed-rafiul-hussain.github.io/" target="_blank">Syed Rafiul Hussain</a>. <br>
 My research involves using a variety of methods (program analysis, symbolic execution, formal methods, LLM, etc) to verify and protect the security and robustness of network systems, telecommunication systems, and service-based systems.
