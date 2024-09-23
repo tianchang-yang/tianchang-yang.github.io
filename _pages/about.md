@@ -92,6 +92,25 @@ My research involves using a variety of methods (program analysis, symbolic exec
       <b>ORANalyst: Systematic Testing Framework for Open RAN Implementations</b> <br>
       <span class="subtext"><b>Tianchang Yang</b>, Syed Md Mukit Rashid, Ali Ranjbar, Gang Tan, Syed Rafiul Hussain <br>
       <i>USENIX Security Symposium <b>(USENIX Security), 2024</b></i></span> <br>
+      <div class="publication-links">
+        <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tianchang" target="_blank">[Link]</a>
+        <a href="https://github.com/SyNSec-den/ORANalyst" target="_blank">[Code]</a>
+        <button class="btn-copy" onclick="copyBibTex()">Copy BibTex</button>
+      </div>
+      <pre id="bibtexCitation" style="display:none;">
+@inproceedings {ORANalyst,
+author = {Tianchang Yang and Syed Md Mukit Rashid and Ali Ranjbar and Gang Tan and Syed Rafiul Hussain},
+title = {{ORANalyst}: Systematic Testing Framework for Open {RAN} Implementations},
+booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
+year = {2024},
+isbn = {978-1-939133-44-1},
+address = {Philadelphia, PA},
+pages = {1921--1938},
+url = {https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tianchang},
+publisher = {USENIX Association},
+month = aug
+}
+      </pre>
     </div>
   </li>
   <li>
@@ -106,7 +125,7 @@ My research involves using a variety of methods (program analysis, symbolic exec
         <button class="btn-copy" onclick="copyBibTex()">Copy BibTex</button>
       </div>
       <pre id="bibtexCitation" style="display:none;">
-@inproceedings{10.1145/3576915.3623113,
+@inproceedings{5GCVerif,
 author = {Akon, Mujtahid and Yang, Tianchang and Dong, Yilu and Hussain, Syed Rafiul},
 title = {Formal Analysis of Access Control Mechanism of 5G Core Network},
 year = {2023},
@@ -122,6 +141,7 @@ numpages = {15},
 keywords = {5g core network, access control, formal analysis, vulnerabilities},
 location = {Copenhagen, Denmark},
 series = {CCS '23}
+}
       </pre>
     </div>
   </li>
