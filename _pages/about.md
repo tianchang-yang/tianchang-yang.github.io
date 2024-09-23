@@ -95,9 +95,10 @@ My research involves using a variety of methods (program analysis, symbolic exec
       <div class="publication-links">
         <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tianchang" target="_blank">[Link]</a>
         <a href="https://github.com/SyNSec-den/ORANalyst" target="_blank">[Code]</a>
-        <button class="btn-copy" onclick="copyBibTex()">Copy BibTex</button>
+        <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button>
       </div>
-      <pre id="bibtexCitation" style="display:none;">
+      <pre id="bibtexCitationORANalyst" style="display:none;">
+{% raw %}
 @inproceedings {ORANalyst,
 author = {Tianchang Yang and Syed Md Mukit Rashid and Ali Ranjbar and Gang Tan and Syed Rafiul Hussain},
 title = {{ORANalyst}: Systematic Testing Framework for Open {RAN} Implementations},
@@ -110,6 +111,7 @@ url = {https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tian
 publisher = {USENIX Association},
 month = aug
 }
+{% endraw %}
       </pre>
     </div>
   </li>
@@ -122,9 +124,10 @@ month = aug
         <a href="files/paper/5GCVerif-ccs23.pdf" target="_blank">[PDF]</a>
         <a href="https://github.com/SyNSec-den/5GCVerif" target="_blank">[Code]</a>
         <a href="https://dl.acm.org/doi/10.1145/3576915.3623113" target="_blank">[Link]</a>
-        <button class="btn-copy" onclick="copyBibTex()">Copy BibTex</button>
+        <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button>
       </div>
-      <pre id="bibtexCitation" style="display:none;">
+      <pre id="bibtexCitation5GCVerif" style="display:none;">
+{% raw %}
 @inproceedings{5GCVerif,
 author = {Akon, Mujtahid and Yang, Tianchang and Dong, Yilu and Hussain, Syed Rafiul},
 title = {Formal Analysis of Access Control Mechanism of 5G Core Network},
@@ -142,6 +145,7 @@ keywords = {5g core network, access control, formal analysis, vulnerabilities},
 location = {Copenhagen, Denmark},
 series = {CCS '23}
 }
+{% endraw %}
       </pre>
     </div>
   </li>
@@ -155,6 +159,7 @@ series = {CCS '23}
   <li>
     <div class="news-year">2024</div>
     <ul class="subtext">
+      <li><b>August:</b> Presented <b><a href="#ORANalyst">ORANalyst: Systematic Testing Framework for Open RAN Implementations</a></b> at USENIX Security '24.</li>
       <li><b>June:</b> Starting my internship at AT&T Labs.</li>
       <li><b>June:</b> Our paper, <b><a href="#ORANalyst">ORANalyst: Systematic Testing Framework for Open RAN Implementations</a></b>, has been accepted to USENIX Security '24.</li>
     </ul>
@@ -169,15 +174,29 @@ series = {CCS '23}
 </ul>
 </div>
 
+<div id="bibtexNotification" style="display: none; position: fixed; bottom: 50px; right: 50px; background-color: #027bff; color: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+  BibTex citation copied to clipboard!
+</div>
+
+
 <script>
-function copyBibTex() {
-  var bibtexCitation = document.getElementById("bibtexCitation");
+function copyBibTex(bibtexId) {
+  var bibtexCitation = document.getElementById(bibtexId);
   var textArea = document.createElement("textarea");
   textArea.value = bibtexCitation.textContent;
   document.body.appendChild(textArea);
   textArea.select();
   document.execCommand("copy");
   document.body.removeChild(textArea);
-  alert("BibTex citation copied to clipboard");
+  
+  // Show the custom notification
+  var notification = document.getElementById('bibtexNotification');
+  notification.style.display = 'block';
+
+  // Automatically hide the notification after 3 seconds (3000 ms)
+  setTimeout(function() {
+    notification.style.display = 'none';
+  }, 3000);
 }
 </script>
+
