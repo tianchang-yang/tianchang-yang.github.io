@@ -95,7 +95,7 @@ My research involves using a variety of methods (program analysis, symbolic exec
       <div class="publication-links">
         <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tianchang" target="_blank">[Link]</a>
         <a href="https://github.com/SyNSec-den/ORANalyst" target="_blank">[Code]</a>
-        <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button>
+        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button> -->
       </div>
       <pre id="bibtexCitationORANalyst" style="display:none;">
 {% raw %}
@@ -124,7 +124,7 @@ month = aug
         <a href="files/paper/5GCVerif-ccs23.pdf" target="_blank">[PDF]</a>
         <a href="https://github.com/SyNSec-den/5GCVerif" target="_blank">[Code]</a>
         <a href="https://dl.acm.org/doi/10.1145/3576915.3623113" target="_blank">[Link]</a>
-        <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button>
+        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button> -->
       </div>
       <pre id="bibtexCitation5GCVerif" style="display:none;">
 {% raw %}
@@ -160,6 +160,7 @@ series = {CCS '23}
     <div class="news-year">2024</div>
     <ul class="subtext">
       <li><b>August:</b> Presented <b><a href="#ORANalyst">ORANalyst: Systematic Testing Framework for Open RAN Implementations</a></b> at USENIX Security '24.</li>
+      <li><b>August:</b> Our findings from <b><a href="#5GCVerif">5GCVerif</a></b> resulted in multiple <b><a href="https://www.3gpp.org/ftp/tsg_sa/WG3_Security/TSGS3_116_Jeju/Docs/S3-242453.zip">modifications</a></b> to the 3GPP 5G technical specifications to mitigate our discovered access control vulnerabilities.</li>
       <li><b>June:</b> Starting my internship at AT&T Labs.</li>
       <li><b>June:</b> Our paper, <b><a href="#ORANalyst">ORANalyst: Systematic Testing Framework for Open RAN Implementations</a></b>, has been accepted to USENIX Security '24.</li>
     </ul>
