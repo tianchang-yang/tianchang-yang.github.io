@@ -114,7 +114,7 @@ TODO
         <a href="https://syed-rafiul-hussain.github.io/wp-content/uploads/2025/05/Loris_baseband_fuzzing_sp25.pdf" target="_blank">[PDF]</a>
         <a href="https://www.computer.org/csdl/proceedings-article/sp/2025/223600b120/26EkFox5zyg" target="_blank">[Link]</a>
         <a href="https://github.com/SyNSec-den/Loris" target="_blank">[Code]</a>
-        <button class="btn-copy" onclick="copyBibTex('bibtexCitationLoris')">Copy BibTex</button>
+        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitationLoris')">Copy BibTex</button> -->
       </div>
       <pre id="bibtexCitationLoris" style="display:none;">
 {% raw %}
@@ -143,7 +143,7 @@ TODO
       <div class="publication-links">
         <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tianchang" target="_blank">[Link]</a>
         <a href="https://github.com/SyNSec-den/ORANalyst" target="_blank">[Code]</a>
-        <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button>
+        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button> -->
       </div>
       <pre id="bibtexCitationORANalyst" style="display:none;">
 {% raw %}
@@ -172,7 +172,7 @@ month = aug
         <a href="files/paper/5GCVerif-ccs23.pdf" target="_blank">[PDF]</a>
         <a href="https://dl.acm.org/doi/10.1145/3576915.3623113" target="_blank">[Link]</a>
         <a href="https://github.com/SyNSec-den/5GCVerif" target="_blank">[Code]</a>
-        <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button>
+        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button> -->
       </div>
       <pre id="bibtexCitation5GCVerif" style="display:none;">
 {% raw %}
