@@ -67,7 +67,7 @@ My research involves using a variety of methods (program analysis, symbolic exec
   </li>
   <li>
     <b>AT&T Labs</b><br>
-    <span class="subtext">Senior Associate Student Technical Intern, <i>June 2024 - August 2024</i></span>
+    <span class="subtext">Senior Associate Student Technical Intern, <i>June 2024 - August 2024</i>, <i>June 2025 - Present</i></span>
   </li>
   <li>
     <b>Tencent Holdings, Ltd.</b> (Tencent Video)<br>
@@ -88,6 +88,54 @@ My research involves using a variety of methods (program analysis, symbolic exec
 <h2>Publications</h2>
 <ul>
   <li>
+    <div id="CoreCrisis">
+      <b>CORECRISIS: Threat-Guided and Context-Aware
+Iterative Learning and Fuzzing of 5G Core Networks</b> <br>
+      <span class="subtext">Yilu Dong, <b>Tianchang Yang</b>, Abdullah Al Ishtiaq, Syed Md Mukit Rashid, Ali Ranjbar, Kai Tu, Tianwei Wu, Md Sultan Mahmud, Syed Rafiul Hussain<br>
+      <i>USENIX Security Symposium <b>(USENIX Security), 2025</b></i></span> <br>
+      <div class="publication-links">
+        <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/dong-yilu" target="_blank">[Link]</a>
+        <a href="https://doi.org/10.5281/zenodo.14735880" target="_blank">[Code]</a>
+        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitationCoreCrisis')">Copy BibTex</button> -->
+      </div>
+      <pre id="bibtexCitationCoreCrisis" style="display:none;">
+{% raw %}
+TODO
+{% endraw %}
+      </pre>
+    </div>
+  </li>
+  <li>
+    <div id="Loris">
+      <b>Stateful Analysis and Fuzzing of Commercial Baseband Firmware</b> <br>
+      <span class="subtext">Ali Ranjbar, <b>Tianchang Yang</b>, Kai Tu, Saaman Khalilollahi, Syed Rafiul Hussain <br>
+      <i>IEEE Symposium on Security and Privacy <b>(SP), 2025</b></i></span> <br>
+      <div class="publication-links">
+        <a href="https://syed-rafiul-hussain.github.io/wp-content/uploads/2025/05/Loris_baseband_fuzzing_sp25.pdf" target="_blank">[PDF]</a>
+        <a href="https://www.computer.org/csdl/proceedings-article/sp/2025/223600b120/26EkFox5zyg" target="_blank">[Link]</a>
+        <a href="https://github.com/SyNSec-den/Loris" target="_blank">[Code]</a>
+        <button class="btn-copy" onclick="copyBibTex('bibtexCitationLoris')">Copy BibTex</button>
+      </div>
+      <pre id="bibtexCitationLoris" style="display:none;">
+{% raw %}
+@INPROCEEDINGS{ranjbar_loris_2025,
+  author = { Ranjbar, Ali and Yang, Tianchang and Tu, Kai and Khalilollahi, Saaman and Hussain, Syed Rafiul },
+  booktitle = { 2025 IEEE Symposium on Security and Privacy (SP) },
+  title = {{ Stateful Analysis and Fuzzing of Commercial Baseband Firmware }},
+  year = {2025},
+  ISSN = {2375-1207},
+  pages = {1120-1139},
+  doi = {10.1109/SP61157.2025.00143},
+  url = {https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00143},
+  publisher = {IEEE Computer Society},
+  address = {Los Alamitos, CA, USA},
+  month = May
+}
+{% endraw %}
+      </pre>
+    </div>
+  </li>
+  <li>
     <div id="ORANalyst">
       <b>ORANalyst: Systematic Testing Framework for Open RAN Implementations</b> <br>
       <span class="subtext"><b>Tianchang Yang</b>, Syed Md Mukit Rashid, Ali Ranjbar, Gang Tan, Syed Rafiul Hussain <br>
@@ -95,7 +143,7 @@ My research involves using a variety of methods (program analysis, symbolic exec
       <div class="publication-links">
         <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yang-tianchang" target="_blank">[Link]</a>
         <a href="https://github.com/SyNSec-den/ORANalyst" target="_blank">[Code]</a>
-        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button> -->
+        <button class="btn-copy" onclick="copyBibTex('bibtexCitationORANalyst')">Copy BibTex</button>
       </div>
       <pre id="bibtexCitationORANalyst" style="display:none;">
 {% raw %}
@@ -122,9 +170,9 @@ month = aug
       <i>The ACM Conference on Computer and Communications Security <b>(CCS), 2023</b></i></span> <br>
       <div class="publication-links">
         <a href="files/paper/5GCVerif-ccs23.pdf" target="_blank">[PDF]</a>
-        <a href="https://github.com/SyNSec-den/5GCVerif" target="_blank">[Code]</a>
         <a href="https://dl.acm.org/doi/10.1145/3576915.3623113" target="_blank">[Link]</a>
-        <!-- <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button> -->
+        <a href="https://github.com/SyNSec-den/5GCVerif" target="_blank">[Code]</a>
+        <button class="btn-copy" onclick="copyBibTex('bibtexCitation5GCVerif')">Copy BibTex</button>
       </div>
       <pre id="bibtexCitation5GCVerif" style="display:none;">
 {% raw %}
@@ -156,6 +204,16 @@ series = {CCS '23}
 <div id="news">
 <h2>News</h2>
 <ul>
+  <li>
+    <div class="news-year">2025</div>
+    <ul class="subtext">
+      <li><b>June:</b>Acknowledged in Google’s Android security acknowledgements for disclosing <a href="https://source.android.com/docs/security/overview/acknowledgements?authuser=1#june-2025" target="_blank">CVE-2025-26785</a>. Awarded a bounty for the report.</li>
+      <li><b>May:</b> Our talk, <b><a href="https://www.blackhat.com/us-25/briefings/schedule/#uncovering-nasty-5g-baseband-vulnerabilities-through-dependency-aware-fuzzing-46485" target="_blank">Uncovering ‘NASty’ 5G Baseband Vulnerabilities through Dependency-Aware Fuzzing</a></b> has been accepted to Black Hat USA 2025. Check out the abstract!</li>
+      <li><b>May:</b>Acknowledged in Samsung’s Product Security Update Bulletins for disclosing <a href="https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2024-52923/" target="_blank">CVE-2024-52923</a>, <a href="https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2024-52924/" target="_blank">CVE-2024-52924</a>, <a href="https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2025-26784/" target="_blank">CVE-2025-26784</a>, <a href="https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2025-26785/" target="_blank">CVE-2025-26785</a>, <a href="https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2025-27891/" target="_blank">CVE-2025-27891</a>. Awarded multiple bug bounties for our reports. </li> 
+      <li><b>March:</b> <b><a href="#CoreCrisis">CoreCrisis: Threat-Guided and Context-Aware Iterative Learning and Fuzzing of 5G Core Networks</a></b> has been accepted to the 34th USENIX Security Symposium.</li>
+      <li><b>January:</b> <b><a href="#Loris">Stateful Analysis and Fuzzing of Commercial Baseband Firmware</a></b> has been accepted to the 46th IEEE Symposium on Security and Privacy.</li>
+    </ul>
+  </li>
   <li>
     <div class="news-year">2024</div>
     <ul class="subtext">
