@@ -1,4 +1,26 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+
+<script>
+    function copyBibTex(bibtexId) {
+      var bibtexCitation = document.getElementById(bibtexId);
+      var textArea = document.createElement("textarea");
+      textArea.value = bibtexCitation.textContent;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textArea);
+      
+      // Show the custom notification
+      var notification = document.getElementById('bibtexNotification');
+      notification.style.display = 'block';
+    
+      // Automatically hide the notification after 3 seconds (3000 ms)
+      setTimeout(function() {
+        notification.style.display = 'none';
+      }, 3000);
+    }
+    </script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
